@@ -18,8 +18,17 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">Contacts</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Help</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Help
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="aboutDev.php">About</a></li>
+                        <li><a class="dropdown-item" href="#">Customer Care</a></li>
+                        <li>
+                            <a class="dropdown-item" href="#">Report</a>
+                        </li>
+                    </ul>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
