@@ -43,8 +43,8 @@
                     </ul>
                 </li>
                 <!-- <button type="button" class="btn btn-primary">Primary</button> -->
-                <a class="btn btn-outline-light rounded-pill" href="main_login.php" role="button">Login</a>
-                <a class="btn btn-outline-light rounded-pill" href="main_register.php" role="button">Register</a>
+                <a class="btn btn-outline-primary rounded-pill" href="main_login.php" role="button">Log In</a>
+                <a class="btn btn-primary rounded-pill" href="main_register.php" role="button">Sign Up</a>
             </ul>
         </div>
     </div>

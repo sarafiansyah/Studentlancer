@@ -281,8 +281,9 @@ $result = $conn->query($sql);
                 lastScrollPosition = window.scrollY;
 
                 if (lastScrollPosition > 100)
-                    navbar.classList.add("bg-dark", "navbar-dark");
-                else navbar.classList.remove("bg-dark");
+                    navbar.classList.remove("navbar-dark"), navbar.classList.add("bg-light", "navbar-light");
+
+                else navbar.classList.remove("bg-light"), navbar.classList.add("navbar-dark");
             });
         };
     </script>

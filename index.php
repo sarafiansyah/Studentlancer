@@ -66,122 +66,184 @@ if (isset($_SESSION['username'])) {
       <div class="main text" style="
           margin-top: -450px;
           color: white;
-          text-align: center;
+          text-align: left;
           padding-top: 0px;
           padding-bottom: 500px;
           z-index: 1;
           position: relative;
         ">
-        <h1>Looking for recommended projects?</h1>
-        <p class="px-5" style="font-size: 20px">
+        <h1><b>Looking for recommended projects?</b></h1>
+        <p class="" style="font-size: 20px">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio
           inventore provident impedit voluptates ab error omnis adipisci earum
           magni doloremque!
         </p>
-        <a class="btn btn-primary" href="#" role="button">Link</a>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Find Freelancers</a>
+        <a class="btn btn-outline-primary btn-lg" href="sl01_projects.php" role="button">Find Projects</a>
       </div>
 
-      <div class="text-center p-4" style="padding-top: 100px; position: static">
-        <h1>About</h1>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi
-          nulla optio nemo provident beatae perferendis repellendus veritatis ab
-          unde neque?
-        </p>
-      </div>
-
-      <div class="mainContent01">
-        <div class="container">
-          <div class="d-lg-flex">
-            <div class="d-md-flex align-items-center mb-lg-0 mb-md-5">
-              <div class="col1 me-md-4 mb-md-0 mb-5">
-                <div class="card pb-4">
-                  <span class="fab fa-envira mt-3"></span>
-                  <p class="h4 pt-4">Freelancers</p>
-                  <p class="p1 text-muted">
-                    Seeking justice in the world is a sed significant emotional
-                    and investment when we follow this call.
-                  </p>
-                  <span class="fas fa-arrow-right"></span>
+      <div data-aos="fade-up" data-aos-duration="2000">
+        <div class="aboutCard" style="margin-top: -100px;">
+          <div class="container-fluid mb-5">
+            <div class="text-center mt-5">
+              <h1>Our Services</h1>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="box">
+                  <div class="our-services settings">
+                    <div class="icon"> <img src="https://i.imgur.com/6NKPrhO.png"> </div>
+                    <h4>Settings</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                  </div>
                 </div>
               </div>
-              <div class="col2 me-md-4 mb-md-0 mb-5">
-                <div class="card pb-4">
-                  <span class="fas fa-cut mt-3"></span>
-                  <p class="h4 pt-4">Projects</p>
-                  <p class="p1 text-muted">
-                    Seeking justice in the world is a sed significant emotional
-                    and investment when we follow this call.
-                  </p>
-                  <span class="fas fa-arrow-right"></span>
+              <div class="col-md-4">
+                <div class="box">
+                  <div class="our-services speedup">
+                    <div class="icon"> <img src="https://i.imgur.com/KMbnpFF.png"> </div>
+                    <h4>Speedup</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                  </div>
                 </div>
               </div>
-              <div class="col3 me-md-4 mb-md-0 mb-5">
-                <div class="card pb-4">
-                  <span class="fas fa-people-carry mt-3"></span>
-                  <p class="h4 pt-4">Training</p>
-                  <p class="p1 text-muted">
-                    Seeking justice in the world is a sed significant emotional
-                    and investment when we follow this call.
-                  </p>
-                  <span class="fas fa-arrow-right"></span>
+              <div class="col-md-4">
+                <div class="box">
+                  <div class="our-services privacy">
+                    <div class="icon"> <img src="https://i.imgur.com/AgyneKA.png"> </div>
+                    <h4>Privacy</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col4">
-              <div class="content">
-                <span class="h-6">Types of Services</span>
-                <p class="h2 mb-4">Find your needs!</p>
-                <p class="text-muted mb-4">
-                  A small river named Duden flows by their place and supplies it
-                  with the necessary regelialia. It is a paradisematic country,
-                  in which roasted parts of sentences fly into your.
-                </p>
-                <p><a href="#" class="btn btn-primary">Get a Quote</a></p>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="box">
+                  <div class="our-services backups">
+                    <div class="icon"> <img src="https://i.imgur.com/vdH9LKi.png"> </div>
+                    <h4>Backups</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="box">
+                  <div class="our-services ssl">
+                    <div class="icon"> <img src="https://i.imgur.com/v6OnUqu.png"> </div>
+                    <h4>SSL secured</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="box">
+                  <div class="our-services database">
+                    <div class="icon"> <img src="https://i.imgur.com/VzjZw9M.png"> </div>
+                    <h4>Database</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-aos="fade-up" data-aos-duration="2000">
+        <div class="mainContent01">
+          <div class="container">
+            <div class="d-lg-flex">
+              <div class="d-md-flex align-items-center mb-lg-0 mb-md-5">
+                <div class="col1 me-md-4 mb-md-0 mb-5">
+                  <div class="card pb-4">
+                    <span class="fab fa-envira mt-3"></span>
+                    <p class="h4 pt-4">Freelancers</p>
+                    <p class="p1 text-muted">
+                      Seeking justice in the world is a sed significant emotional
+                      and investment when we follow this call.
+                    </p>
+                    <span class="fas fa-arrow-right"></span>
+                  </div>
+                </div>
+                <div class="col2 me-md-4 mb-md-0 mb-5">
+                  <div class="card pb-4">
+                    <span class="fas fa-cut mt-3"></span>
+                    <p class="h4 pt-4">Projects</p>
+                    <p class="p1 text-muted">
+                      Seeking justice in the world is a sed significant emotional
+                      and investment when we follow this call.
+                    </p>
+                    <span class="fas fa-arrow-right"></span>
+                  </div>
+                </div>
+                <div class="col3 me-md-4 mb-md-0 mb-5">
+                  <div class="card pb-4">
+                    <span class="fas fa-people-carry mt-3"></span>
+                    <p class="h4 pt-4">Training</p>
+                    <p class="p1 text-muted">
+                      Seeking justice in the world is a sed significant emotional
+                      and investment when we follow this call.
+                    </p>
+                    <span class="fas fa-arrow-right"></span>
+                  </div>
+                </div>
+              </div>
+              <div class="col4">
+                <div class="content">
+                  <span class="h-6">Types of Services</span>
+                  <p class="h2 mb-4">Find your needs!</p>
+                  <p class="text-muted mb-4">
+                    A small river named Duden flows by their place and supplies it
+                    with the necessary regelialia. It is a paradisematic country,
+                    in which roasted parts of sentences fly into your.
+                  </p>
+                  <p><a href="#" class="btn btn-primary">Get a Quote</a></p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-
-      <div class="reviews">
-        <figure class="snip1157">
-          <blockquote>
-            Calvin: You know sometimes when I'm talking, my words can't keep up
-            with my thoughts... I wonder why we think faster than we speak.
-            Hobbes: Probably so we can think twice.
-            <div class="arrow"></div>
-          </blockquote>
-          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample3.jpg" alt="sq-sample3" />
-          <div class="author">
-            <h5>Pelican Steve <span> LIttleSnippets.net</span></h5>
-          </div>
-        </figure>
-        <figure class="snip1157 hover">
-          <blockquote>
-            Thank you. before I begin, I'd like everyone to notice that my report
-            is in a professional, clear plastic binder...When a report looks this
-            good, you know it'll get an A. That's a tip kids. Write it down.
-            <div class="arrow"></div>
-          </blockquote>
-          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample27.jpg" alt="sq-sample27" />
-          <div class="author">
-            <h5>Max Conversion<span> LIttleSnippets.net</span></h5>
-          </div>
-        </figure>
-        <figure class="snip1157">
-          <blockquote>
-            My behaviour is addictive functioning in a disease process of toxic
-            co-dependency. I need holistic healing and wellness before I'll accept
-            any responsibility for my actions.
-            <div class="arrow"></div>
-          </blockquote>
-          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample17.jpg" alt="sq-sample17" />
-          <div class="author">
-            <h5>Eleanor Faint<span> LIttleSnippets.net</span></h5>
-          </div>
-        </figure>
+      <div data-aos="fade-up" data-aos-duration="2000">
+        <div class="reviews">
+          <figure class="snip1157">
+            <blockquote>
+              Calvin: You know sometimes when I'm talking, my words can't keep up
+              with my thoughts... I wonder why we think faster than we speak.
+              Hobbes: Probably so we can think twice.
+              <div class="arrow"></div>
+            </blockquote>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample3.jpg" alt="sq-sample3" />
+            <div class="author">
+              <h5>Pelican Steve <span> LIttleSnippets.net</span></h5>
+            </div>
+          </figure>
+          <figure class="snip1157 hover">
+            <blockquote>
+              Thank you. before I begin, I'd like everyone to notice that my report
+              is in a professional, clear plastic binder...When a report looks this
+              good, you know it'll get an A. That's a tip kids. Write it down.
+              <div class="arrow"></div>
+            </blockquote>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample27.jpg" alt="sq-sample27" />
+            <div class="author">
+              <h5>Max Conversion<span> LIttleSnippets.net</span></h5>
+            </div>
+          </figure>
+          <figure class="snip1157">
+            <blockquote>
+              My behaviour is addictive functioning in a disease process of toxic
+              co-dependency. I need holistic healing and wellness before I'll accept
+              any responsibility for my actions.
+              <div class="arrow"></div>
+            </blockquote>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample17.jpg" alt="sq-sample17" />
+            <div class="author">
+              <h5>Eleanor Faint<span> LIttleSnippets.net</span></h5>
+            </div>
+          </figure>
+        </div>
       </div>
     </div>
   </main>
@@ -207,8 +269,9 @@ if (isset($_SESSION['username'])) {
         lastScrollPosition = window.scrollY;
 
         if (lastScrollPosition > 100)
-          navbar.classList.add("bg-dark", "navbar-dark");
-        else navbar.classList.remove("bg-dark");
+          navbar.classList.remove("navbar-dark"), navbar.classList.add("bg-light", "navbar-light");
+
+        else navbar.classList.remove("bg-light"), navbar.classList.add("navbar-dark");
       });
     };
   </script>

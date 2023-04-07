@@ -43,22 +43,6 @@ include 'config.php';
                 <div class="single_advisor_profile wow fadeInUp " data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp; box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;">
                     <!-- Team Thumb-->
                     <div class="advisor_thumb">
-                        <img src="assets/images/dev01.png" height=300 width=170 style="margin-left: 10px;" alt="">
-                        <!-- Social Info-->
-                        <div class="social-info"><a href="#"><i class="fa-brands fa-facebook-f"></i></i></a><a href="#"><i class="fa-brands fa-twitter"></i></a><a href="#"><i class="fa-brands fa-instagram"></i></a><a href="#"><i class="fa-brands fa-linkedin"></i></a></div>
-                    </div>
-                    <!-- Team Details-->
-                    <div class="single_advisor_details_info">
-                        <h6><b>Cristha Patrisya Pentury</b></h6>
-                        <p class="designation">Chief Executive Officer</p>
-                    </div>
-                </div>
-            </div>
-            <!-- Single Advisor-->
-            <div class="col-12 col-sm-6 col-lg-3">
-                <div class="single_advisor_profile wow fadeInUp " data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp; box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;">
-                    <!-- Team Thumb-->
-                    <div class="advisor_thumb">
                         <img src="assets/images/dev02.png" height=300 width=220 style="margin-left: 0px;" alt="">
                         <!-- Social Info-->
                         <div class="social-info"><a href="#"><i class="fa-brands fa-facebook-f"></i></i></a><a href="#"><i class="fa-brands fa-twitter"></i></a><a href="#"><i class="fa-brands fa-instagram"></i></a><a href="#"><i class="fa-brands fa-linkedin"></i></a></div>
@@ -71,6 +55,23 @@ include 'config.php';
                 </div>
             </div>
             <!-- Single Advisor-->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="single_advisor_profile wow fadeInUp " data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp; box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;">
+                    <!-- Team Thumb-->
+                    <div class="advisor_thumb">
+                        <img src="assets/images/dev01.png" height=300 width=170 style="margin-left: 10px;" alt="">
+                        <!-- Social Info-->
+                        <div class="social-info"><a href="#"><i class="fa-brands fa-facebook-f"></i></i></a><a href="#"><i class="fa-brands fa-twitter"></i></a><a href="#"><i class="fa-brands fa-instagram"></i></a><a href="#"><i class="fa-brands fa-linkedin"></i></a></div>
+                    </div>
+                    <!-- Team Details-->
+                    <div class="single_advisor_details_info">
+                        <h6><b>Cristha Patrisya Pentury</b></h6>
+                        <p class="designation">Chief Executive Officer</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Advisor-->
+
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="single_advisor_profile wow fadeInUp " data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp; box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;">
                     <!-- Team Thumb-->
