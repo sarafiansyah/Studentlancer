@@ -169,7 +169,7 @@ if (isset($_SESSION['username'])) {
                 <div class="col2 me-md-4 mb-md-0 mb-5">
                   <div class="card pb-4">
                     <span class="fas fa-cut mt-3"></span>
-                    <p class="h4 pt-4">Projects</p>
+                    <p class="h4 pt-4">Employer</p>
                     <p class="p1 text-muted">
                       Seeking justice in the world is a sed significant emotional
                       and investment when we follow this call.
