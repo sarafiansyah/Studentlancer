@@ -1,48 +1,12 @@
-    <!-- Footer -->
-    <footer class="text-center text-lg-start bg-light text-muted">
-        <!-- Section: Social media -->
-        <section class="container d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-            <!-- Left -->
-            <div class="me-5 d-none d-lg-block">
-                <span>Get connected with us on social networks:</span>
-            </div>
-            <!-- Left -->
-
-            <!-- Right -->
-            <div>
-                <a href="" class="me-4 text-reset">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-                <a href="" class="me-4 text-reset">
-                    <i class="fab fa-twitter"></i>
-                </a>
-                <a href="" class="me-4 text-reset">
-                    <i class="fab fa-google"></i>
-                </a>
-                <a href="" class="me-4 text-reset">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="" class="me-4 text-reset">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="" class="me-4 text-reset">
-                    <i class="fab fa-github"></i>
-                </a>
-            </div>
-            <!-- Right -->
-        </section>
-        <!-- Section: Social media -->
-
-        <!-- Section: Links  -->
-        <section class="">
-            <div class="container text-center text-md-start mt-5">
-                <!-- Grid row -->
+    <div class=" px-5" style="color: #6c757d; background-color:#f8f9fa;">
+        <footer class="">
+            <div class="row">
                 <div class="row mt-3">
                     <!-- Grid column -->
                     <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                         <!-- Content -->
-                        <h6 class="text-uppercase fw-bold mb-4">
-                            <i class="fas fa-gem me-3"></i>Company name
+                        <h6 class=" fw-bold mb-4" style="font-size: 20px;">
+                            <i class="fas fa-gem "></i> Studentlancer
                         </h6>
                         <p>
                             Here you can use rows and columns to organize your footer
@@ -104,16 +68,54 @@
                     </div>
                     <!-- Grid column -->
                 </div>
-                <!-- Grid row -->
-            </div>
-        </section>
-        <!-- Section: Links  -->
+                <div class="row mx-auto justify-content-center text-center d-flex flex-column flex-sm-row justify-content-between my-3 border-top-0">
+                    <h6 class="text-uppercase fw-bold mb-4">IN PARTNERSHIP WITH</h6>
 
-        <!-- Copyright -->
-        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05)">
-            © 2021 Copyright:
-            <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-        </div>
-        <!-- Copyright -->
-    </footer>
-    <!-- Footer -->
+                    <div class="py-2" style="margin-top: -10px; font-size: 20px;">
+                        <a href="" class="me-3 text-reset">
+                            UKRIDA
+                        </a>
+                        <a href="" class="me-3 text-reset">
+                            UKRIDA
+                        </a>
+                        <a href="" class="me-3 text-reset">
+                            UKRIDA
+                        </a>
+                        <a href="" class="me-3 text-reset">
+                            UKRIDA
+                        </a>
+                        <a href="" class="me-3 text-reset">
+                            UKRIDA
+                        </a>
+                        <a href="" class="me-3 text-reset">
+                            UKRIDA
+                        </a>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-column flex-sm-row justify-content-between py-4 border-top">
+                    <p>© 2023 PT. Studentlancer Crisanustama.</p>
+
+                    <div style="font-size: 20px;">
+                        <a href="" class="me-3 text-reset">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="" class="me-3 text-reset">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="" class="me-3 text-reset">
+                            <i class="fab fa-google"></i>
+                        </a>
+                        <a href="" class="me-3 text-reset">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="" class="me-3 text-reset">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="" class="me-3 text-reset">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+        </footer>
+    </div>

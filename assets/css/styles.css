@@ -653,3 +653,159 @@ figure.snip1157 .author h5 span {
   cursor: pointer;
   background-image: linear-gradient(-45deg, #27b88d 0%, #22dd73 100%);
 }
+
+@media (max-width: 991.98px) {
+}
+
+@media (max-width: 767.98px) {
+}
+
+.owl-carousel .item {
+  margin: 3px;
+  display: flex;
+  width: auto;
+  height: auto;
+}
+.owl-carousel .item img {
+}
+
+.categoriesCard .card {
+  width: 350px;
+  height: 460px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background: #fff;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  user-select: none;
+  z-index: 10;
+  overflow: hidden;
+}
+
+.categoriesCard .card .backgroundEffect {
+  bottom: 0;
+  height: 0px;
+  width: 100%;
+}
+
+.categoriesCard .card:hover {
+  color: #fff;
+  transform: scale(1.025);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
+}
+
+.categoriesCard .card:hover .backgroundEffect {
+  bottom: 0;
+  height: 320px;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  background: #1b9ce3;
+  animation: popBackground 0.3s ease-in;
+}
+
+@keyframes popBackground {
+  0% {
+    height: 20px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+  }
+
+  50% {
+    height: 80px;
+    border-top-left-radius: 75%;
+    border-top-right-radius: 75%;
+  }
+
+  75% {
+    height: 160px;
+    border-top-left-radius: 85%;
+    border-top-right-radius: 85%;
+  }
+
+  100% {
+    height: 320px;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+  }
+}
+
+.categoriesCard .card .pic {
+  position: relative;
+}
+
+.categoriesCard .card .pic img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+}
+
+.categoriesCard .card .date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 70px;
+  background-color: #1b9ce3;
+  color: white;
+  position: absolute;
+  bottom: 0px;
+  transition: all ease;
+}
+
+.categoriesCard .card .date .day {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.categoriesCard .card .date .month,
+.card .date .year {
+  font-size: 10px;
+}
+
+.categoriesCard .card .text-muted {
+  font-size: 12px;
+}
+
+.categoriesCard .card:hover .text-muted {
+  color: #fff !important;
+}
+
+.categoriesCard .card .content {
+  padding: 0 20px;
+}
+
+.categoriesCard .card .content .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  background-color: #1b9ce3;
+  border-radius: 25px;
+  font-size: 12px;
+  border: none;
+}
+
+.categoriesCard .card:hover .content .btn {
+  background: #fff;
+  color: #1b9ce3;
+  box-shadow: #0000001a 0px 3px 5px;
+}
+
+.categoriesCard .card .content .btn .fas {
+  font-size: 10px;
+  padding-left: 5px;
+}
+
+.categoriesCard .card .content .foot .admin {
+  color: #1b9ce3;
+  font-size: 12px;
+}
+
+.categoriesCard .card:hover .content .foot .admin {
+  color: #fff;
+}
+
+.categoriesCard .card .content .foot .icon {
+  font-size: 12px;
+}

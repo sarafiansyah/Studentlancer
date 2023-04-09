@@ -16,7 +16,7 @@ if (isset($_SESSION['username'])) {
 <html lang="en">
 
 <head>
-  <title>Title</title>
+  <title>Studentlancer - Website Freelance Mahasiswa</title>
   <!-- Required meta tags -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -25,6 +25,7 @@ if (isset($_SESSION['username'])) {
   <link rel="stylesheet" href="assets/css/styles.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.css" rel="stylesheet" />
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 </head>
 
@@ -205,6 +206,374 @@ if (isset($_SESSION['username'])) {
         </div>
       </div>
 
+      <div class="categoriesCard mx-auto justify-content-center ">
+        <div class="container">
+          <div class="justify-content-center">
+            <div class="page-content page-container" id="page-content">
+              <div class="row container-fluid">
+                <h4 class="card-title">Basic carousel</h4>
+                <div class="owl-carousel">
+                  <div class="item">
+                    <div class=" card border-0 me-lg-4 mb-lg-0 mb-4">
+                      <div class="backgroundEffect"></div>
+                      <div class="pic">
+                        <img class="" src="https://images.pexels.com/photos/374016/pexels-photo-374016.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" />
+                        <div class="date">
+                          <span class="day">26</span> <span class="month">June</span>
+                          <span class="year">2019</span>
+                        </div>
+                      </div>
+                      <div class="content">
+                        <p class="h-1 mt-4">
+                          <b>Graphic Design</b>
+                        </p>
+                        <p class="text-muted" style="margin-top:-10px;">
+                          Far far away, behind the word mountains, far from the countries
+                          Vokalia and Consonantia, there live the blind texts.
+                        </p>
+                        <div class="d-flex align-items-center justify-content-between mt-3 pb-3">
+                          <div class="btn btn-primary">
+                            Read More<span class="fas fa-arrow-right"></span>
+                          </div>
+                          <div class="d-flex align-items-center justify-content-center foot">
+                            <p class="admin">Admin</p>
+                            <p class="ps-3 icon text-muted">
+                              <span class="fas fa-comment-alt pe-1"></span>3
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="card border-0 me-lg-4 mb-lg-0 mb-4">
+                      <div class="backgroundEffect"></div>
+                      <div class="pic">
+                        <img class="" src="https://images.pexels.com/photos/1560932/pexels-photo-1560932.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" />
+                        <div class="date">
+                          <span class="day">26</span> <span class="month">June</span>
+                          <span class="year">2019</span>
+                        </div>
+                      </div>
+                      <div class="content">
+                        <p class="h-1 mt-4">
+                          <b>Graphic Design</b>
+                        </p>
+                        <p class="text-muted" style="margin-top:-10px;">
+                          Far far away, behind the word mountains, far from the countries
+                          Vokalia and Consonantia, there live the blind texts.
+                        </p>
+                        <div class="d-flex align-items-center justify-content-between mt-3 pb-3">
+                          <div class="btn btn-primary">
+                            Read More<span class="fas fa-arrow-right"></span>
+                          </div>
+                          <div class="d-flex align-items-center justify-content-center foot">
+                            <p class="admin">Admin</p>
+                            <p class="ps-3 icon text-muted">
+                              <span class="fas fa-comment-alt pe-1"></span>3
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="card border-0 me-lg-4 mb-lg-0 mb-4">
+                      <div class="backgroundEffect"></div>
+                      <div class="pic">
+                        <img class="" src="https://images.pexels.com/photos/1560932/pexels-photo-1560932.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" />
+                        <div class="date">
+                          <span class="day">26</span> <span class="month">June</span>
+                          <span class="year">2019</span>
+                        </div>
+                      </div>
+                      <div class="content">
+                        <p class="h-1 mt-4">
+                          <b>Graphic Design</b>
+                        </p>
+                        <p class="text-muted" style="margin-top:-10px;">
+                          Far far away, behind the word mountains, far from the countries
+                          Vokalia and Consonantia, there live the blind texts.
+                        </p>
+                        <div class="d-flex align-items-center justify-content-between mt-3 pb-3">
+                          <div class="btn btn-primary">
+                            Read More<span class="fas fa-arrow-right"></span>
+                          </div>
+                          <div class="d-flex align-items-center justify-content-center foot">
+                            <p class="admin">Admin</p>
+                            <p class="ps-3 icon text-muted">
+                              <span class="fas fa-comment-alt pe-1"></span>3
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="card border-0 me-lg-4 mb-lg-0 mb-4">
+                      <div class="backgroundEffect"></div>
+                      <div class="pic">
+                        <img class="" src="https://images.pexels.com/photos/374016/pexels-photo-374016.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" />
+                        <div class="date">
+                          <span class="day">26</span> <span class="month">June</span>
+                          <span class="year">2019</span>
+                        </div>
+                      </div>
+                      <div class="content">
+                        <p class="h-1 mt-4">
+                          <b>Graphic Design</b>
+                        </p>
+                        <p class="text-muted" style="margin-top:-10px;">
+                          Far far away, behind the word mountains, far from the countries
+                          Vokalia and Consonantia, there live the blind texts.
+                        </p>
+                        <div class="d-flex align-items-center justify-content-between mt-3 pb-3">
+                          <div class="btn btn-primary">
+                            Read More<span class="fas fa-arrow-right"></span>
+                          </div>
+                          <div class="d-flex align-items-center justify-content-center foot">
+                            <p class="admin">Admin</p>
+                            <p class="ps-3 icon text-muted">
+                              <span class="fas fa-comment-alt pe-1"></span>3
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="card border-0 me-lg-4 mb-lg-0 mb-4">
+                      <div class="backgroundEffect"></div>
+                      <div class="pic">
+                        <img class="" src="https://images.pexels.com/photos/374016/pexels-photo-374016.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" />
+                        <div class="date">
+                          <span class="day">26</span> <span class="month">June</span>
+                          <span class="year">2019</span>
+                        </div>
+                      </div>
+                      <div class="content">
+                        <p class="h-1 mt-4">
+                          <b>Graphic Design</b>
+                        </p>
+                        <p class="text-muted" style="margin-top:-10px;">
+                          Far far away, behind the word mountains, far from the countries
+                          Vokalia and Consonantia, there live the blind texts.
+                        </p>
+                        <div class="d-flex align-items-center justify-content-between mt-3 pb-3">
+                          <div class="btn btn-primary">
+                            Read More<span class="fas fa-arrow-right"></span>
+                          </div>
+                          <div class="d-flex align-items-center justify-content-center foot">
+                            <p class="admin">Admin</p>
+                            <p class="ps-3 icon text-muted">
+                              <span class="fas fa-comment-alt pe-1"></span>3
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="card border-0 me-lg-4 mb-lg-0 mb-4">
+                      <div class="backgroundEffect"></div>
+                      <div class="pic">
+                        <img class="" src="https://images.pexels.com/photos/374016/pexels-photo-374016.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" />
+                        <div class="date">
+                          <span class="day">26</span> <span class="month">June</span>
+                          <span class="year">2019</span>
+                        </div>
+                      </div>
+                      <div class="content">
+                        <p class="h-1 mt-4">
+                          <b>Graphic Design</b>
+                        </p>
+                        <p class="text-muted" style="margin-top:-10px;">
+                          Far far away, behind the word mountains, far from the countries
+                          Vokalia and Consonantia, there live the blind texts.
+                        </p>
+                        <div class="d-flex align-items-center justify-content-between mt-3 pb-3">
+                          <div class="btn btn-primary">
+                            Read More<span class="fas fa-arrow-right"></span>
+                          </div>
+                          <div class="d-flex align-items-center justify-content-center foot">
+                            <p class="admin">Admin</p>
+                            <p class="ps-3 icon text-muted">
+                              <span class="fas fa-comment-alt pe-1"></span>3
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="card border-0 me-lg-4 mb-lg-0 mb-4">
+                      <div class="backgroundEffect"></div>
+                      <div class="pic">
+                        <img class="" src="https://images.pexels.com/photos/374016/pexels-photo-374016.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" />
+                        <div class="date">
+                          <span class="day">26</span> <span class="month">June</span>
+                          <span class="year">2019</span>
+                        </div>
+                      </div>
+                      <div class="content">
+                        <p class="h-1 mt-4">
+                          <b>Graphic Design</b>
+                        </p>
+                        <p class="text-muted" style="margin-top:-10px;">
+                          Far far away, behind the word mountains, far from the countries
+                          Vokalia and Consonantia, there live the blind texts.
+                        </p>
+                        <div class="d-flex align-items-center justify-content-between mt-3 pb-3">
+                          <div class="btn btn-primary">
+                            Read More<span class="fas fa-arrow-right"></span>
+                          </div>
+                          <div class="d-flex align-items-center justify-content-center foot">
+                            <p class="admin">Admin</p>
+                            <p class="ps-3 icon text-muted">
+                              <span class="fas fa-comment-alt pe-1"></span>3
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="card border-0 me-lg-4 mb-lg-0 mb-4">
+                      <div class="backgroundEffect"></div>
+                      <div class="pic">
+                        <img class="" src="https://images.pexels.com/photos/374016/pexels-photo-374016.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" />
+                        <div class="date">
+                          <span class="day">26</span> <span class="month">June</span>
+                          <span class="year">2019</span>
+                        </div>
+                      </div>
+                      <div class="content">
+                        <p class="h-1 mt-4">
+                          <b>Graphic Design</b>
+                        </p>
+                        <p class="text-muted" style="margin-top:-10px;">
+                          Far far away, behind the word mountains, far from the countries
+                          Vokalia and Consonantia, there live the blind texts.
+                        </p>
+                        <div class="d-flex align-items-center justify-content-between mt-3 pb-3">
+                          <div class="btn btn-primary">
+                            Read More<span class="fas fa-arrow-right"></span>
+                          </div>
+                          <div class="d-flex align-items-center justify-content-center foot">
+                            <p class="admin">Admin</p>
+                            <p class="ps-3 icon text-muted">
+                              <span class="fas fa-comment-alt pe-1"></span>3
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="card border-0 me-lg-4 mb-lg-0 mb-4">
+                      <div class="backgroundEffect"></div>
+                      <div class="pic">
+                        <img class="" src="https://images.pexels.com/photos/374016/pexels-photo-374016.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" />
+                        <div class="date">
+                          <span class="day">26</span> <span class="month">June</span>
+                          <span class="year">2019</span>
+                        </div>
+                      </div>
+                      <div class="content">
+                        <p class="h-1 mt-4">
+                          <b>Graphic Design</b>
+                        </p>
+                        <p class="text-muted" style="margin-top:-10px;">
+                          Far far away, behind the word mountains, far from the countries
+                          Vokalia and Consonantia, there live the blind texts.
+                        </p>
+                        <div class="d-flex align-items-center justify-content-between mt-3 pb-3">
+                          <div class="btn btn-primary">
+                            Read More<span class="fas fa-arrow-right"></span>
+                          </div>
+                          <div class="d-flex align-items-center justify-content-center foot">
+                            <p class="admin">Admin</p>
+                            <p class="ps-3 icon text-muted">
+                              <span class="fas fa-comment-alt pe-1"></span>3
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="card border-0 me-lg-4 mb-lg-0 mb-4">
+                      <div class="backgroundEffect"></div>
+                      <div class="pic">
+                        <img class="" src="https://images.pexels.com/photos/374016/pexels-photo-374016.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" />
+                        <div class="date">
+                          <span class="day">26</span> <span class="month">June</span>
+                          <span class="year">2019</span>
+                        </div>
+                      </div>
+                      <div class="content">
+                        <p class="h-1 mt-4">
+                          <b>Graphic Design</b>
+                        </p>
+                        <p class="text-muted" style="margin-top:-10px;">
+                          Far far away, behind the word mountains, far from the countries
+                          Vokalia and Consonantia, there live the blind texts.
+                        </p>
+                        <div class="d-flex align-items-center justify-content-between mt-3 pb-3">
+                          <div class="btn btn-primary">
+                            Read More<span class="fas fa-arrow-right"></span>
+                          </div>
+                          <div class="d-flex align-items-center justify-content-center foot">
+                            <p class="admin">Admin</p>
+                            <p class="ps-3 icon text-muted">
+                              <span class="fas fa-comment-alt pe-1"></span>3
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="card border-0 me-lg-4 mb-lg-0 mb-4">
+                      <div class="backgroundEffect"></div>
+                      <div class="pic">
+                        <img class="" src="https://images.pexels.com/photos/374016/pexels-photo-374016.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" />
+                        <div class="date">
+                          <span class="day">26</span> <span class="month">June</span>
+                          <span class="year">2019</span>
+                        </div>
+                      </div>
+                      <div class="content">
+                        <p class="h-1 mt-4">
+                          <b>Graphic Design</b>
+                        </p>
+                        <p class="text-muted" style="margin-top:-10px;">
+                          Far far away, behind the word mountains, far from the countries
+                          Vokalia and Consonantia, there live the blind texts.
+                        </p>
+                        <div class="d-flex align-items-center justify-content-between mt-3 pb-3">
+                          <div class="btn btn-primary">
+                            Read More<span class="fas fa-arrow-right"></span>
+                          </div>
+                          <div class="d-flex align-items-center justify-content-center foot">
+                            <p class="admin">Admin</p>
+                            <p class="ps-3 icon text-muted">
+                              <span class="fas fa-comment-alt pe-1"></span>3
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
       <div data-aos="fade-up" data-aos-duration="2000">
         <div class="reviews">
           <figure class="snip1157">
@@ -253,11 +622,13 @@ if (isset($_SESSION['username'])) {
   </footer>
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="  https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
 
   <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.js"></script>
   <script>
     AOS.init();
   </script>
@@ -274,6 +645,28 @@ if (isset($_SESSION['username'])) {
         else navbar.classList.remove("bg-light"), navbar.classList.add("navbar-dark");
       });
     };
+  </script>
+  <script>
+    $(document).ready(function() {
+
+      $(".owl-carousel").owlCarousel({
+
+        autoPlay: 3000,
+        items: 3,
+        itemsDesktop: [1199, 3],
+        itemsDesktopSmall: [979, 3],
+        center: true,
+        nav: true,
+        loop: true,
+        responsive: {
+          600: {
+            items: 1
+          }
+        }
+
+      });
+
+    });
   </script>
 </body>
 
