@@ -132,6 +132,3 @@ class Database {
 	
 } 
 $mydb = new Database();
-
-
-?>
