@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.0.1
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 23, 2021 at 05:07 AM
--- Server version: 10.4.6-MariaDB
--- PHP Version: 7.3.9
+-- Generation Time: Jul 07, 2023 at 12:04 PM
+-- Server version: 10.4.27-MariaDB
+-- PHP Version: 8.2.0
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -19,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `erisdb`
+-- Database: `db_stdlancer`
 --
 
 -- --------------------------------------------------------
@@ -46,7 +45,7 @@ CREATE TABLE `tblapplicants` (
   `DEGREE` text NOT NULL,
   `APPLICANTPHOTO` varchar(255) NOT NULL,
   `NATIONALID` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `tblapplicants`
@@ -55,7 +54,8 @@ CREATE TABLE `tblapplicants` (
 INSERT INTO `tblapplicants` (`APPLICANTID`, `FNAME`, `LNAME`, `MNAME`, `ADDRESS`, `SEX`, `CIVILSTATUS`, `BIRTHDATE`, `BIRTHPLACE`, `AGE`, `USERNAME`, `PASS`, `EMAILADDRESS`, `CONTACTNO`, `DEGREE`, `APPLICANTPHOTO`, `NATIONALID`) VALUES
 (2018013, 'Kim', 'Domingo', 'Enoe', 'Kab City', 'Female', 'none', '1991-01-01', 'Kab Citys', 27, 'kim', 'a6312121e15caec74845b7ba5af23330d52d4ac0', 'kim@y.com', '5415456', 'BSAC', 'photos/RobloxScreenShot20180406_203758793.png', ''),
 (2018014, 'Jake', 'Zyrus', 'Ilmba', 'Kab City', 'Female', 'none', '1993-01-16', 'Kab City', 25, 'jake', 'c8d99c2f7cd5f432c163abcd422672b9f77550bb', 'jake@y.com', '14655623123123', 'BSIT', '', ''),
-(2018015, 'Janry', 'Tan', 'Lim', 'brgy 1 Kab City', 'Female', 'Single', '1992-01-30', 'Kab City', 26, 'janry', '1dd4efc811372cd1efe855981a8863d10ddde1ca', 'jan@gmail.com', '0234234', 'BSIT', '', '');
+(2018015, 'Janry', 'Tan', 'Lim', 'brgy 1 Kab City', 'Female', 'Single', '1992-01-30', 'Kab City', 26, 'janry', '1dd4efc811372cd1efe855981a8863d10ddde1ca', 'jan@gmail.com', '0234234', 'BSIT', '', ''),
+(2023016, 'Cristha', 'Pentury', 'Patrisya', '123', 'Female', 'Single', '1987-06-26', 'Jakarta', 35, 'peped', '40bd001563085fc35165329ea1ff5c5ecbdbbeef', 'peped@gmail.com', '123', 'Ha?', 'photos/photo3jpg.jpg', '');
 
 -- --------------------------------------------------------
 
@@ -70,14 +70,17 @@ CREATE TABLE `tblattachmentfile` (
   `FILE_NAME` varchar(90) NOT NULL,
   `FILE_LOCATION` varchar(255) NOT NULL,
   `USERATTACHMENTID` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `tblattachmentfile`
 --
 
 INSERT INTO `tblattachmentfile` (`ID`, `FILEID`, `JOBID`, `FILE_NAME`, `FILE_LOCATION`, `USERATTACHMENTID`) VALUES
-(2, '2147483647', 2, 'Resume', 'photos/27052018124027PLATENO FE95483.docx', 2018013);
+(2, '2147483647', 2, 'Resume', 'photos/27052018124027PLATENO FE95483.docx', 2018013),
+(3, '20236912529', 2, 'Resume', 'photos/26042023072349Sertif  (3).png', 2023016),
+(4, '20236912530', 3, 'Resume', 'photos/11062023031913CV_MahesaRafianSyah_2023_rev2102 (2).pdf', 2023016),
+(5, '20236912531', 4, 'Resume', 'photos/22062023063558412020016_mahesarafiansyah.py', 2023016);
 
 -- --------------------------------------------------------
 
@@ -91,7 +94,7 @@ CREATE TABLE `tblautonumbers` (
   `AUTOEND` int(11) NOT NULL,
   `AUTOINC` int(11) NOT NULL,
   `AUTOKEY` varchar(30) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `tblautonumbers`
@@ -100,8 +103,8 @@ CREATE TABLE `tblautonumbers` (
 INSERT INTO `tblautonumbers` (`AUTOID`, `AUTOSTART`, `AUTOEND`, `AUTOINC`, `AUTOKEY`) VALUES
 (1, '02983', 7, 1, 'userid'),
 (2, '000', 78, 1, 'employeeid'),
-(3, '0', 16, 1, 'APPLICANT'),
-(4, '69125', 29, 1, 'FILEID');
+(3, '0', 17, 1, 'APPLICANT'),
+(4, '69125', 32, 1, 'FILEID');
 
 -- --------------------------------------------------------
 
@@ -112,7 +115,7 @@ INSERT INTO `tblautonumbers` (`AUTOID`, `AUTOSTART`, `AUTOEND`, `AUTOINC`, `AUTO
 CREATE TABLE `tblcategory` (
   `CATEGORYID` int(11) NOT NULL,
   `CATEGORY` varchar(250) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `tblcategory`
@@ -145,7 +148,7 @@ CREATE TABLE `tblcompany` (
   `COMPANYCONTACTNO` varchar(30) NOT NULL,
   `COMPANYSTATUS` varchar(90) NOT NULL,
   `COMPANYMISSION` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `tblcompany`
@@ -186,7 +189,7 @@ CREATE TABLE `tblemployees` (
   `EMPPASSWORD` varchar(125) NOT NULL,
   `DATEHIRED` date NOT NULL,
   `COMPANYID` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `tblemployees`
@@ -206,7 +209,16 @@ CREATE TABLE `tblfeedback` (
   `APPLICANTID` int(11) NOT NULL,
   `REGISTRATIONID` int(11) NOT NULL,
   `FEEDBACK` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+
+--
+-- Dumping data for table `tblfeedback`
+--
+
+INSERT INTO `tblfeedback` (`FEEDBACKID`, `APPLICANTID`, `REGISTRATIONID`, `FEEDBACK`) VALUES
+(2, 2023016, 3, 'Good to Go!'),
+(3, 2023016, 4, 'Accepted, please contact me at 081211223344'),
+(4, 2023016, 5, 'Selamat kamu diterima');
 
 -- --------------------------------------------------------
 
@@ -228,7 +240,7 @@ CREATE TABLE `tbljob` (
   `SECTOR_VACANCY` text NOT NULL,
   `JOBSTATUS` varchar(90) NOT NULL,
   `DATEPOSTED` datetime NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `tbljob`
@@ -236,7 +248,9 @@ CREATE TABLE `tbljob` (
 
 INSERT INTO `tbljob` (`JOBID`, `COMPANYID`, `CATEGORY`, `OCCUPATIONTITLE`, `REQ_NO_EMPLOYEES`, `SALARIES`, `DURATION_EMPLOYEMENT`, `QUALIFICATION_WORKEXPERIENCE`, `JOBDESCRIPTION`, `PREFEREDSEX`, `SECTOR_VACANCY`, `JOBSTATUS`, `DATEPOSTED`) VALUES
 (1, 2, 'Technology', 'ISD', 6, 15000, 'jan 30', 'Two year Experience', 'We are looking for bachelor of science in information technology.\r\nasdasdasd', 'Male/Female', 'yes', '', '2018-05-20 00:00:00'),
-(2, 2, 'Technology', 'Accounting', 1, 15000, 'may 20', 'Two years Experience', 'We are looking for bachelor of science in Acountancy', 'Female', 'yes', '', '2018-05-20 02:33:00');
+(2, 2, 'Technology', 'Accounting', 1, 15000, 'may 20', 'Two years Experience', 'We are looking for bachelor of science in Acountancy', 'Female', 'yes', '', '2018-05-20 02:33:00'),
+(3, 6, 'Technology', 'Create A Website', 1, 20000, '1 day', 'All majors', 'Please Make me a website', 'Male/Female', 'All', '', '2023-06-11 15:16:00'),
+(4, 7, 'Technology', 'Create Mobile App', 1, 100, '1 day', 'S1', 'Need S1', 'Male/Female', 'IT', '', '2023-06-22 06:35:00');
 
 -- --------------------------------------------------------
 
@@ -256,7 +270,7 @@ CREATE TABLE `tbljobregistration` (
   `PENDINGAPPLICATION` tinyint(1) NOT NULL DEFAULT 1,
   `HVIEW` tinyint(1) NOT NULL DEFAULT 1,
   `DATETIMEAPPROVED` datetime NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `tbljobregistration`
@@ -264,7 +278,10 @@ CREATE TABLE `tbljobregistration` (
 
 INSERT INTO `tbljobregistration` (`REGISTRATIONID`, `COMPANYID`, `JOBID`, `APPLICANTID`, `APPLICANT`, `REGISTRATIONDATE`, `REMARKS`, `FILEID`, `PENDINGAPPLICATION`, `HVIEW`, `DATETIMEAPPROVED`) VALUES
 (1, 2, 2, 2018013, 'Kim Domingo', '2018-05-27', 'Ive seen your work and its really interesting', '2147483647', 0, 1, '2018-05-26 16:13:01'),
-(2, 2, 2, 2018015, 'Janry Tan', '2018-05-26', 'aasd', '2147483647', 0, 0, '2018-05-28 14:14:45');
+(2, 2, 2, 2018015, 'Janry Tan', '2018-05-26', 'aasd', '2147483647', 0, 0, '2018-05-28 14:14:45'),
+(3, 2, 2, 2023016, 'Cristha Pentury', '2023-04-26', 'Good to Go!', '20236912529', 0, 1, '2023-04-27 00:25:37'),
+(4, 6, 3, 2023016, 'Cristha Pentury', '2023-06-11', 'Accepted, please contact me at 081211223344', '20236912530', 0, 1, '2023-06-11 20:20:18'),
+(5, 7, 4, 2023016, 'Cristha Pentury', '2023-06-22', 'Selamat kamu diterima', '20236912531', 0, 1, '2023-06-22 11:36:46');
 
 -- --------------------------------------------------------
 
@@ -279,7 +296,7 @@ CREATE TABLE `tblusers` (
   `PASS` varchar(90) NOT NULL,
   `ROLE` varchar(30) NOT NULL,
   `PICLOCATION` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `tblusers`
@@ -362,13 +379,13 @@ ALTER TABLE `tblusers`
 -- AUTO_INCREMENT for table `tblapplicants`
 --
 ALTER TABLE `tblapplicants`
-  MODIFY `APPLICANTID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2018016;
+  MODIFY `APPLICANTID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2023017;
 
 --
 -- AUTO_INCREMENT for table `tblattachmentfile`
 --
 ALTER TABLE `tblattachmentfile`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `tblautonumbers`
@@ -398,19 +415,19 @@ ALTER TABLE `tblemployees`
 -- AUTO_INCREMENT for table `tblfeedback`
 --
 ALTER TABLE `tblfeedback`
-  MODIFY `FEEDBACKID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `FEEDBACKID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `tbljob`
 --
 ALTER TABLE `tbljob`
-  MODIFY `JOBID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `JOBID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `tbljobregistration`
 --
 ALTER TABLE `tbljobregistration`
-  MODIFY `REGISTRATIONID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `REGISTRATIONID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
