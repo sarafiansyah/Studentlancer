@@ -30,4 +30,3 @@ switch ($view) {
 		$content ='Profile.php';		
 }
 require_once("../theme/templates.php");
-?>
