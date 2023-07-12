@@ -42,8 +42,9 @@ $applicant = $appl->single_applicant($_SESSION['APPLICANTID']);
           <li class="list-group-item text-muted">Profile</li><!-- 
             <li class="list-group-item text-right"><span class="pull-left"><strong>Joined</strong></span> 2.13.2014</li>
             <li class="list-group-item text-right"><span class="pull-left"><strong>Last seen</strong></span> Yesterday</li> -->
-          <li class="list-group-item text-right"><span class="pull-left"><strong>Real Name</strong></span>
-            <?php echo $applicant->FNAME . ' ' . substr($applicant->MNAME, 1, 2) . '. ' . $applicant->LNAME; ?>
+          <li class="list-group-item "><span class="pull-left"><strong>Real Name</strong></span>
+            <br>
+            <?php echo $applicant->FNAME . ' ' . $applicant->MNAME . ' ' . $applicant->LNAME; ?>
           </li>
 
         </ul>
@@ -55,6 +56,13 @@ $applicant = $appl->single_applicant($_SESSION['APPLICANTID']);
             <ul class="nav nav-pills nav-stacked">
               <li class="<?php echo ($view == 'appliedjobs' || $view == '') ? 'active' : ''; ?>"><a href="<?php echo web_root . 'applicant/index.php?view=appliedjobs'; ?>"><i class="fa fa-list"></i> Applied Jobs
                 </a></li>
+              <li class="<?php echo ($view == 'hire') ? 'active' : ''; ?>"><a href="<?php echo web_root . 'applicant/index.php?view=appliedjobs'; ?>"><i class="fa fa-list"></i> Hire
+                </a></li>
+              <li class="<?php echo (currentpage() == 'vacancy') ? "active" : false; ?>">
+                <a href="<?php echo web_root; ?>applicant/vacancy/">
+                  <i class="fa fa-suitcase"></i> <span>Vacancy</span>
+                </a>
+              </li>
               <li class="<?php echo ($view == 'accounts') ? 'active' : ''; ?>"><a href="<?php echo web_root . 'applicant/index.php?view=accounts'; ?>"><i class="fa fa-user"></i> Accounts </a></li>
               <li class="<?php echo ($view == 'message') ? 'active' : ''; ?>"><a href="<?php echo web_root . 'applicant/index.php?view=message'; ?>"><i class="fa fa-envelope-o"></i> Messages
                   <span class="label label-success pull-right"><?php echo isset($showMsg->COUNT) ? $showMsg->COUNT : 0; ?></span></a></li>

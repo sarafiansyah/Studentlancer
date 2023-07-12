@@ -5,7 +5,7 @@ require_once("../include/initialize.php");
 <?php
 // login confirmation
 if (isset($_SESSION['ADMIN_USERID'])) {
-  redirect(web_root . "admin/index.php");
+  redirect(web_root . "applicant/login.php");
 }
 ?>
 
@@ -42,7 +42,7 @@ if (isset($_SESSION['ADMIN_USERID'])) {
   </div> -->
     <!-- /.login-logo -->
     <div class="login-box-body" style="min-height: 400px;">
-      <h1 class="login-box-msg">Login to Studentlancer Recruiter</h1>
+      <h1 class="login-box-msg">Login to S-REC</h1>
       <hr />
       <p><?php check_message(); ?></p>
 
@@ -67,6 +67,15 @@ if (isset($_SESSION['ADMIN_USERID'])) {
           <div class="col-xs-4">
             <button type="submit" name="btnLogin" class="btn btn-primary btn-block btn-flat">Sign In</button>
           </div>
+
+          <div class="col-xs-4">
+            <a href="<?php echo web_root; ?>applicant/registerREC.php" class="btn btn-primary btn-block btn-flat>
+            <i class=" fa fa-suitcase"></i> <span>Register</span>
+            </a>
+          </div>
+
+
+
         </div>
         <!-- /.col -->
     </div>
@@ -121,11 +130,11 @@ if (isset($_SESSION['ADMIN_USERID'])) {
         unset($_SESSION['ROLE']);
         unset($_SESSION['PICLOCATION']);
 
-        redirect(web_root . "admin/index.php");
+        redirect(web_root . "applicant/vacancy/index.php");
         // } 
       } else {
         message("Account does not exist! Please contact Administrator.", "error");
-        redirect(web_root . "admin/login.php");
+        redirect(web_root . "applicant/login.php");
       }
     }
   }

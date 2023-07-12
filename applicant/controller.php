@@ -51,7 +51,7 @@ switch ($action) {
 					$applicant->update($_SESSION['APPLICANTID']);
 
 					message("Account has been updated!", "success");
-					redirect("index.php?view=accounts");
+					redirect("index.php?view=profile");
 	    	}
 	}
    
@@ -134,6 +134,4 @@ function UploadImage(){
 			echo "File Not Supported";
 			exit;
 		}
-} 
-
-?>
+}
