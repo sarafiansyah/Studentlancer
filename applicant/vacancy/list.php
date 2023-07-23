@@ -17,7 +17,7 @@ if (!isset($_SESSION['ADMIN_USERID'])) {
 				<tr>
 
 					<!-- <th>No.</th> -->
-					<th>Company Name</th>
+					<th>Recruiter Name</th>
 					<th>Occupation Title</th>
 					<th>Require no. of Employees</th>
 					<th>Salaries</th>

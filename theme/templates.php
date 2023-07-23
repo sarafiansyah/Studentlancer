@@ -13,11 +13,12 @@
    <link href="<?php echo web_root; ?>plugins/home-plugins/css/fancybox/jquery.fancybox.css" rel="stylesheet">
    <link href="<?php echo web_root; ?>plugins/home-plugins/css/flexslider.css" rel="stylesheet" />
    <link href="<?php echo web_root; ?>plugins/home-plugins/css/style.css" rel="stylesheet" />
+   <link href="<?php echo web_root; ?>plugins/home-plugins/css/styles.css" rel="stylesheet" />
    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
    <!-- <link rel="stylesheet" href="<?php echo web_root; ?>plugins/dataTables/dataTables.bootstrap.css">  -->
    <link rel="stylesheet" href="<?php echo web_root; ?>plugins/font-awesome/css/font-awesome.min.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.css" rel="stylesheet" />
    <link rel="stylesheet" href="<?php echo web_root; ?>plugins/dataTables/jquery.dataTables.min.css">
    <link rel="stylesheet" href="<?php echo web_root; ?>plugins/dataTables/jquery.dataTables_themeroller.css">
    <!-- datetime picker CSS -->
@@ -201,13 +202,12 @@
              <div class="widget">
                <h5 class="widgetheading">Our Contact</h5>
                <address>
-                 <strong>Our Company</strong><br>
-                 JC Main Road, Near Silnile tower<br>
-                 Pin-21542 NewYork US.
+                 <strong>UKRIDA</strong><br>
+                 Jl. Tanjung Duren Raya No.4, RT.12/RW.2, Tj. Duren Utara, Kec. Grogol petamburan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11470
                </address>
                <p>
-                 <i class="icon-phone"></i> (123) 456-789 - 1255-12584 <br>
-                 <i class="icon-envelope-alt"></i> jannopalacios@gmail.com
+                 <i class="icon-phone"></i> (021) 5666953 <br>
+                 <i class="icon-envelope-alt"></i> ukrida@gmail.com
                </p>
              </div>
            </div>
@@ -299,7 +299,15 @@
    <script src="<?php echo web_root; ?>plugins/home-plugins/js/bootstrap.min.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+
+
+   <script src="  https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+
    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.js"></script>
 
 
    <script type="text/javascript" src="<?php echo web_root; ?>plugins/dataTables/dataTables.bootstrap.min.js"></script>
@@ -327,8 +335,11 @@
    <script src="<?php echo web_root; ?>plugins/home-plugins/js/custom.js"></script>
    <!-- <script src="<?php echo web_root; ?>plugins/paralax/paralax.js"></script>  -->
    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.js"></script>
 
    <script type="text/javascript">
+     AOS.init();
+
      $(function() {
        $("#dash-table").DataTable();
        $('#dash-table2').DataTable({
@@ -417,6 +428,46 @@
        minView: 2,
        forceParse: 0
 
+     });
+
+     $(document).ready(function() {
+
+       $(".owl-carousel").owlCarousel({
+
+         autoPlay: 3000,
+         items: 3,
+         itemsDesktop: [1199, 3],
+         itemsDesktopSmall: [979, 3],
+         center: true,
+         nav: true,
+         loop: true,
+         responsive: {
+           600: {
+             items: 1
+           }
+         }
+
+       });
+
+     });
+
+     $(document).ready(function() {
+       $(".testimonial .indicators li").click(function() {
+         var i = $(this).index();
+         var targetElement = $(".testimonial .tabs li");
+         targetElement.eq(i).addClass('active');
+         targetElement.not(targetElement[i]).removeClass('active');
+       });
+       $(".testimonial .tabs li").click(function() {
+         var targetElement = $(".testimonial .tabs li");
+         targetElement.addClass('active');
+         targetElement.not($(this)).removeClass('active');
+       });
+     });
+     $(document).ready(function() {
+       $(".slider .swiper-pagination span").each(function(i) {
+         $(this).text(i + 1).prepend("0");
+       });
      });
    </script>
 

@@ -56,11 +56,9 @@ $applicant = $appl->single_applicant($_SESSION['APPLICANTID']);
             <ul class="nav nav-pills nav-stacked">
               <li class="<?php echo ($view == 'appliedjobs' || $view == '') ? 'active' : ''; ?>"><a href="<?php echo web_root . 'applicant/index.php?view=appliedjobs'; ?>"><i class="fa fa-list"></i> Applied Jobs
                 </a></li>
-              <li class="<?php echo ($view == 'hire') ? 'active' : ''; ?>"><a href="<?php echo web_root . 'applicant/index.php?view=appliedjobs'; ?>"><i class="fa fa-list"></i> Hire
-                </a></li>
               <li class="<?php echo (currentpage() == 'vacancy') ? "active" : false; ?>">
                 <a href="<?php echo web_root; ?>applicant/vacancy/">
-                  <i class="fa fa-suitcase"></i> <span>Vacancy</span>
+                  <i class="fa fa-suitcase"></i> <span>Hire</span>
                 </a>
               </li>
               <li class="<?php echo ($view == 'accounts') ? 'active' : ''; ?>"><a href="<?php echo web_root . 'applicant/index.php?view=accounts'; ?>"><i class="fa fa-user"></i> Accounts </a></li>

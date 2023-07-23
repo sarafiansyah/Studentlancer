@@ -1,110 +1,10 @@
  <section id="content">
- 	<div class="container" style="margin-left: auto; margin-right: auto; text-align: center; justify-content: center;">
- 		<div class="row justify-content-center mx-auto ">
- 			<div class="col-12 col-sm-8 col-lg-6">
- 				<!-- Section Heading-->
- 				<div class="section_heading text-center wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
- 					<h3>Our Creative <span> Team</span></h3>
- 					<p>Appland is completely creative, lightweight, clean &amp; super responsive app landing page.</p>
- 					<div class="line"></div>
- 				</div>
- 			</div>
- 		</div>
- 		<div class="row justify-content-center mx-auto text-center" style="margin-left: auto; margin-right: auto; text-align: center; justify-content: center;">
- 			<!-- Single Advisor-->
- 			<div class="col-12 col-sm-6 col-lg-3">
- 				<div class="single_advisor_profile wow fadeInUp " data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp; box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;">
- 					<!-- Team Thumb-->
- 					<div class="advisor_thumb">
- 						<img src="plugins/home-plugins/img/devs/dev02.png" height=300 width=220 style="margin-left: 0px;" alt="">
- 						<!-- Social Info-->
- 						<div class="social-info"><a href="#"><i class="fa-brands fa-facebook-f"></i></i></a><a href="#"><i class="fa-brands fa-twitter"></i></a><a href="#"><i class="fa-brands fa-instagram"></i></a><a href="#"><i class="fa-brands fa-linkedin"></i></a></div>
- 					</div>
- 					<!-- Team Details-->
- 					<div class="single_advisor_details_info">
- 						<h6><b>Mahesa Rafiansyah</b></h6>
- 						<p class="designation">Chief Technology Officer</p>
- 					</div>
- 				</div>
- 			</div>
- 			<!-- Single Advisor-->
- 			<div class="col-12 col-sm-6 col-lg-3">
- 				<div class="single_advisor_profile wow fadeInUp " data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp; box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;">
- 					<!-- Team Thumb-->
- 					<div class="advisor_thumb">
- 						<img src="plugins/home-plugins/img/devs/dev01.png" height=300 width=170 style="margin-left: 10px;" alt="">
- 						<!-- Social Info-->
- 						<div class="social-info"><a href="#"><i class="fa-brands fa-facebook-f"></i></i></a><a href="#"><i class="fa-brands fa-twitter"></i></a><a href="#"><i class="fa-brands fa-instagram"></i></a><a href="#"><i class="fa-brands fa-linkedin"></i></a></div>
- 					</div>
- 					<!-- Team Details-->
- 					<div class="single_advisor_details_info">
- 						<h6><b>Cristha Patrisya Pentury</b></h6>
- 						<p class="designation">Chief Executive Officer</p>
- 					</div>
- 				</div>
- 			</div>
- 			<!-- Single Advisor-->
 
- 			<div class="col-12 col-sm-6 col-lg-3">
- 				<div class="single_advisor_profile wow fadeInUp " data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp; box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;">
- 					<!-- Team Thumb-->
- 					<div class="advisor_thumb">
- 						<img src="plugins/home-plugins/img/devs/dev03.png" height=300 width=230 style="margin-left: -10px;" alt="">
- 						<!-- Social Info-->
- 						<div class="social-info"><a href="#"><i class="fa-brands fa-facebook-f"></i></i></a><a href="#"><i class="fa-brands fa-twitter"></i></a><a href="#"><i class="fa-brands fa-instagram"></i></a><a href="#"><i class="fa-brands fa-linkedin"></i></a></div>
- 					</div>
- 					<!-- Team Details-->
- 					<div class="single_advisor_details_info">
- 						<h6><b>Yohanes Stefanus</b></h6>
- 						<p class="designation">Chief Marketing Officer</p>
- 					</div>
- 				</div>
- 			</div>
- 			<!-- Single Advisor-->
- 		</div>
- 		<div class="row justify-content-center mx-auto text-center" style="margin-left: auto; margin-right: auto; text-align: center; justify-content: center;">
- 			<!-- Single Advisor-->
- 			<div class="col-12 col-sm-6 col-lg-3">
- 				<div class="single_advisor_profile wow fadeInUp " data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp; box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;">
- 					<!-- Team Thumb-->
- 					<div class="advisor_thumb">
- 						<img src="plugins/home-plugins/img/devs/dev02.png" height=300 width=220 style="margin-left: 0px;" alt="">
- 						<!-- Social Info-->
- 						<div class="social-info"><a href="#"><i class="fa-brands fa-facebook-f"></i></i></a><a href="#"><i class="fa-brands fa-twitter"></i></a><a href="#"><i class="fa-brands fa-instagram"></i></a><a href="#"><i class="fa-brands fa-linkedin"></i></a></div>
- 					</div>
- 					<!-- Team Details-->
- 					<div class="single_advisor_details_info">
- 						<h6><b>Mahesa Rafiansyah</b></h6>
- 						<p class="designation">Chief Technology Officer</p>
- 					</div>
- 				</div>
- 			</div>
-
- 			<!-- Single Advisor-->
-
- 			<div class="col-12 col-sm-6 col-lg-3">
- 				<div class="single_advisor_profile wow fadeInUp " data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp; box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;">
- 					<!-- Team Thumb-->
- 					<div class="advisor_thumb">
- 						<img src="plugins/home-plugins/img/devs/dev03.png" height=300 width=230 style="margin-left: -10px;" alt="">
- 						<!-- Social Info-->
- 						<div class="social-info"><a href="#"><i class="fa-brands fa-facebook-f"></i></i></a><a href="#"><i class="fa-brands fa-twitter"></i></a><a href="#"><i class="fa-brands fa-instagram"></i></a><a href="#"><i class="fa-brands fa-linkedin"></i></a></div>
- 					</div>
- 					<!-- Team Details-->
- 					<div class="single_advisor_details_info">
- 						<h6><b>Yohanes Stefanus</b></h6>
- 						<p class="designation">Chief Marketing Officer</p>
- 					</div>
- 				</div>
- 			</div>
- 			<!-- Single Advisor-->
- 		</div>
- 	</div>
  	<section class="section-padding">
  		<div class="container">
  			<div class="row showcase-section">
  				<div class="col-md-6">
- 					<img src="img/dev1.png" alt="showcase image">
+ 					<img src="plugins/home-plugins/img/dev1.png" alt="showcase image">
  				</div>
  				<div class="col-md-6">
  					<div class="about-text">
@@ -238,56 +138,85 @@
  			<!-- Our Team starts -->
 
  			<!-- Heading -->
- 			<div class="block-heading-six">
- 				<h4 class="bg-color">Our Team</h4>
- 			</div>
- 			<br>
-
- 			<!-- Our team starts -->
-
- 			<div class="team-six">
- 				<div class="row">
- 					<div class="col-md-3 col-sm-6">
- 						<!-- Team Member -->
- 						<div class="team-member">
- 							<!-- Image -->
- 							<img class="img-responsive" src="img/team1.jpg" alt="">
- 							<!-- Name -->
- 							<h4>Johne Doe</h4>
- 							<span class="deg">Creative</span>
- 						</div>
- 					</div>
- 					<div class="col-md-3 col-sm-6">
- 						<!-- Team Member -->
- 						<div class="team-member">
- 							<!-- Image -->
- 							<img class="img-responsive" src="img/team2.jpg" alt="">
- 							<!-- Name -->
- 							<h4>Jennifer</h4>
- 							<span class="deg">Programmer</span>
- 						</div>
- 					</div>
- 					<div class="col-md-3 col-sm-6">
- 						<!-- Team Member -->
- 						<div class="team-member">
- 							<!-- Image -->
- 							<img class="img-responsive" src="img/team3.jpg" alt="">
- 							<!-- Name -->
- 							<h4>Christean</h4>
- 							<span class="deg">CEO</span>
- 						</div>
- 					</div>
- 					<div class="col-md-3 col-sm-6">
- 						<!-- Team Member -->
- 						<div class="team-member">
- 							<!-- Image -->
- 							<img class="img-responsive" src="img/team4.jpg" alt="">
- 							<!-- Name -->
- 							<h4>Kerinele rase</h4>
- 							<span class="deg">Manager</span>
+ 			<div class="container" style="margin-left: auto; margin-right: auto; text-align: center; justify-content: center;">
+ 				<div class="row justify-content-center mx-auto ">
+ 					<div class="col-12 col-sm-8 col-lg-6">
+ 						<!-- Section Heading-->
+ 						<div class="section_heading text-center wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+ 							<h3>Our Creative <span> Team</span></h3>
+ 							<p>Appland is completely creative, lightweight, clean &amp; super responsive app landing page.</p>
+ 							<div class="line"></div>
  						</div>
  					</div>
  				</div>
+ 				<div class="row justify-content-center mx-auto text-center" style="margin-left: auto; margin-right: auto; text-align: center; justify-content: center;">
+ 					<!-- Single Advisor-->
+ 					<div class="col-12 col-sm-6 col-lg-3">
+ 						<div class="single_advisor_profile wow fadeInUp " data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp; box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;">
+ 							<!-- Team Thumb-->
+ 							<div class="advisor_thumb">
+ 								<img src="plugins/home-plugins/img/devs/dev02.png" height=300 width=220 style="margin-left: 0px;" alt="">
+ 								<!-- Social Info-->
+ 								<div class="social-info"><a href="#"><i class="fa-brands fa-facebook-f"></i></i></a><a href="#"><i class="fa-brands fa-twitter"></i></a><a href="#"><i class="fa-brands fa-instagram"></i></a><a href="#"><i class="fa-brands fa-linkedin"></i></a></div>
+ 							</div>
+ 							<!-- Team Details-->
+ 							<div class="single_advisor_details_info">
+ 								<h6><b>Mahesa Rafiansyah</b></h6>
+ 								<p class="designation">Chief Technology Officer</p>
+ 							</div>
+ 						</div>
+ 					</div>
+ 					<!-- Single Advisor-->
+ 					<div class="col-12 col-sm-6 col-lg-3">
+ 						<div class="single_advisor_profile wow fadeInUp " data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp; box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;">
+ 							<!-- Team Thumb-->
+ 							<div class="advisor_thumb">
+ 								<img src="plugins/home-plugins/img/devs/dev01.png" height=300 width=170 style="margin-left: 10px;" alt="">
+ 								<!-- Social Info-->
+ 								<div class="social-info"><a href="#"><i class="fa-brands fa-facebook-f"></i></i></a><a href="#"><i class="fa-brands fa-twitter"></i></a><a href="#"><i class="fa-brands fa-instagram"></i></a><a href="#"><i class="fa-brands fa-linkedin"></i></a></div>
+ 							</div>
+ 							<!-- Team Details-->
+ 							<div class="single_advisor_details_info">
+ 								<h6><b>Cristha Patrisya Pentury</b></h6>
+ 								<p class="designation">Chief Executive Officer</p>
+ 							</div>
+ 						</div>
+ 					</div>
+ 					<!-- Single Advisor-->
+
+ 					<div class="col-12 col-sm-6 col-lg-3">
+ 						<div class="single_advisor_profile wow fadeInUp " data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp; box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;">
+ 							<!-- Team Thumb-->
+ 							<div class="advisor_thumb">
+ 								<img src="https://bootdey.com/img/Content/avatar/avatar7.png" height=300 width=230 style="margin-left: -10px;" alt="">
+ 								<!-- Social Info-->
+ 								<div class="social-info"><a href="#"><i class="fa-brands fa-facebook-f"></i></i></a><a href="#"><i class="fa-brands fa-twitter"></i></a><a href="#"><i class="fa-brands fa-instagram"></i></a><a href="#"><i class="fa-brands fa-linkedin"></i></a></div>
+ 							</div>
+ 							<!-- Team Details-->
+ 							<div class="single_advisor_details_info">
+ 								<h6><b>Nico Sanjaya</b></h6>
+ 								<p class="designation">Chief Marketing Officer</p>
+ 							</div>
+ 						</div>
+ 					</div>
+ 					<div class="col-12 col-sm-6 col-lg-3">
+ 						<div class="single_advisor_profile wow fadeInUp " data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp; box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;">
+ 							<!-- Team Thumb-->
+ 							<div class="advisor_thumb">
+ 								<img src="https://bootdey.com/img/Content/avatar/avatar7.png" height=300 width=230 style="margin-left: -10px;" alt="">
+ 								<!-- Social Info-->
+ 								<div class="social-info"><a href="#"><i class="fa-brands fa-facebook-f"></i></i></a><a href="#"><i class="fa-brands fa-twitter"></i></a><a href="#"><i class="fa-brands fa-instagram"></i></a><a href="#"><i class="fa-brands fa-linkedin"></i></a></div>
+ 							</div>
+ 							<!-- Team Details-->
+ 							<div class="single_advisor_details_info">
+ 								<h6><b>Diana Novita </b></h6>
+ 								<p class="designation">Chief Marketing Officer</p>
+ 							</div>
+ 						</div>
+ 					</div>
+ 					<!-- Single Advisor-->
+ 				</div>
+
  			</div>
 
  			<!-- Our team ends -->
